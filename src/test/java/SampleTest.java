@@ -32,4 +32,9 @@ public class SampleTest {
 
         Assert.assertEquals(actualTotal, expectedTotal, "Cart total is incorrect");
     }
+
+    @Test
+    public void sampleFailingTest() {
+        Assert.assertEquals("Login Successful", "Login Failed");
+    }
 }
